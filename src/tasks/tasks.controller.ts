@@ -15,8 +15,8 @@ import { CreateTaskDto } from './dto/craete-task.dto';
 import { GetTasksFilterDto } from './dto/get-tasks-fileter.dto';
 import { UpdateTaskStatusDto } from './dto/update-task-status.dto';
 import { AuthGuard } from '@nestjs/passport';
-import { GetUser } from 'src/auth/get-user.decorator';
-import { User } from 'src/auth/user.entity';
+import { GetUser } from '../auth/get-user.decorator';
+import { User } from '../auth/user.entity';
 import { Logger } from '@nestjs/common';
 
 @Controller('tasks')
